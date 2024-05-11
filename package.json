@@ -1,0 +1,25 @@
+{
+  "name": "use-dirname",
+  "version": "1.0.0",
+  "description": "const __dirname = useDirname(import.meta.url)",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run ./test"
+  },
+  "keywords": [
+    "dirname",
+    "esm"
+  ],
+  "author": "dragon-fish <dragon-fish@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "tsx": "^4.10.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
