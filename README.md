@@ -7,7 +7,17 @@ import { useDirname } from 'use-dirname'
 const __dirname = useDirname(import.meta.url)
 ```
 
-I don't want to copy and paste this utility function into every project I maintained any more. So I decided to publish this package.
+Tired of pasting this function into every project I've worked on, I've decided it's time to package it and put it on. Then it will never take me that long.
+
+## Unit Test (?)
+
+**💥100% coverage💥**
+
+```bash
+pnpm test
+```
+
+Honestly, this test is somewhat absurd, true. But in the world of code, it's better than including no test, too.
 
 ---
 

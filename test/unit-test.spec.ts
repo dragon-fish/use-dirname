@@ -5,7 +5,7 @@ import { resolve } from 'node:path'
 describe('Unit test', () => {
   it('Should be the same', () => {
     const pwd = process.cwd()
-    const shouldBe = resolve(pwd, 'test/foo/bar')
+    const shouldBe = resolve(pwd, 'test')
     const __dirname = useDirname(import.meta.url)
     const dirname = resolve(__dirname)
     expect(dirname).toBe(shouldBe)
